@@ -10,12 +10,12 @@ This plugin adds [Harbor](https://goharbor.io/) support to Play! Framework 1 app
 
 ```
 require:
-    - harbor -> harbor 1.0.0
+    - harbor -> harbor 1.1.0
 
 repositories:
-    - sismics:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - harbor -> *
 
