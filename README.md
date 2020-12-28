@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-harbor.svg?style=flat-square)](https://github.com/sismics/play-harbor/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-harbor plugin
 
 This plugin adds [Harbor](https://goharbor.io/) support to Play! Framework 1 applications.
@@ -10,7 +13,7 @@ This plugin adds [Harbor](https://goharbor.io/) support to Play! Framework 1 app
 
 ```
 require:
-    - harbor -> harbor 1.1.0
+    - harbor -> harbor 1.2.0
 
 repositories:
     - sismicsNexusRaw:
